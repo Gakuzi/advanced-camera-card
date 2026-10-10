@@ -10,6 +10,45 @@
 
 <img src="https://raw.githubusercontent.com/dermotduffy/advanced-camera-card/main/docs/images/advanced-camera-card.png" alt="Advanced Camera Card" width="500px">
 
+# Advanced Camera Card — русская версия
+
+> **Русифицированный форк** оригинальной карточки [Advanced Camera Card](https://github.com/dermotduffy/advanced-camera-card) (лицензия MIT).
+> Добавлена **полная русская локализация интерфейса** (`src/localize/languages/ru.json`). Весь функционал оригинала сохранён без изменений.
+
+## Установка через HACS (рекомендуется)
+
+1. В Home Assistant откройте **HACS** → **Три точки** (⋮) → **Пользовательские репозитории** (Custom repositories).
+2. Вставьте URL репозитория:
+   ```
+   https://github.com/Gakuzi/advanced-camera-card
+   ```
+3. Категория: **Lovelace** → **Добавить**.
+4. Перезагрузите страницу. В HACS появится карточка **Advanced Camera Card** — установите её через **Загрузить**.
+5. Перезагрузите Home Assistant (или перезайдите в браузер).
+
+## Как переключить язык на русский
+
+Карточка автоматически использует язык вашего Home Assistant. Чтобы интерфейс стал русским:
+
+- В Home Assistant: **Профиль** (профиль пользователя) → язык интерфейса **Русский**, или
+- выберите язык в самом браузере, или
+- в карточке откройте **Редактор** → вкладка **Общие** → поле **Язык** → **Русский** (если ваша версия поддерживает выбор).
+
+Если какой-либо текст остался на английском — значит, ключ ещё не переведён. Сообщите об этом в [Issues](https://github.com/Gakuzi/advanced-camera-card/issues) этого форка.
+
+## Обновление форка
+
+Это форк, поэтому обновления оригинальной карточки можно подтягивать из исходного репозитория:
+
+```
+git fetch upstream
+git merge upstream/main
+```
+
+---
+
+## Оригинальный README (английский)
+
 # Advanced Camera Card
 
 Formerly known as: `Frigate Card`
